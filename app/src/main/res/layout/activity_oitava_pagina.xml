@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OitavaPagina"
+    android:background="@color/colorAzul">
+
+    <RelativeLayout
+        android:id="@+id/rel_anything"
+        android:layout_width="318dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_shadow_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="168dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="524dp"
+        android:fontFamily="@font/roboto"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/tutorial"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/botao4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/conectar"
+        android:onClick="Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/bot1" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/ok"
+        android:textColor="#f1f1f1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/botao4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/botao4" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/topico_tres_tutorial"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/sample_text2"
+        android:layout_width="253dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/topico_um_tutorial"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="251dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto"
+        android:lineSpacingExtra="18sp"
+        android:text="@string/topico_dois_tutorial"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/sample_text2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="246dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/topico_quatro_tutorial"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+</android.support.constraint.ConstraintLayout>

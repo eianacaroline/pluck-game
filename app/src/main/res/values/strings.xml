@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="logo">(Logo!)</string>
+    <string name="pronto">Pronto</string>
+    <string name="voltar">Voltar</string>
+    <string name="tempo">30</string>
+    <string name="tempo2">s</string>
+    <string name="topico_um_inicio_jogo">• Afaste-se do seu adversário;</string>
+    <string name="topico_dois_inicio_jogo">• Aperte o botão para atirar;</string>
+    <string name="topico_tres_inicio_jogo">• Mire no colete;</string>
+    <string name="topico_quatro_inicio_jogo">• Vence quem sobreviver.</string>
+    <string name="bluetooth">Simbolo bluetooth.</string>
+    <string name="traje">Selecione o código do seu traje, herói: </string>
+    <string name="bluetooth_traje_um">Traje 2DG-59</string>
+    <string name="bluetooth_traje_dois">Traje 5DH-60</string>
+    <string name="conectar">Conectar.</string>
+    <string name="pausa">Pausa.</string>
+    <string name="personagem">Personagem.</string>
+    <string name="vida">Vida</string>
+    <string name="derrota">Não foi dessa vez.</string>
+    <string name="ok">OK</string>
+    <string name="pontuacao">Pontos:</string>
+    <string name="pontos">0</string>
+    <string name="pontos_dois">+100</string>
+    <string name="pontos_tres">5900</string>
+    <string name="pontos_faltando">Faltam 100 para o próximo nível</string>
+    <string name="vitoria">Vencedor</string>
+    <string name="tutorial">Como jogar: </string>
+    <string name="topico_um_tutorial">• Antes de iniciar o jogo, afaste o máximo possível do seu adversário;</string>
+    <string name="topico_dois_tutorial">• Aperte o botão para atirar;</string>
+    <string name="topico_tres_tutorial">• Mire no colete para causar dano;</string>
+    <string name="topico_quatro_tutorial">• Vence quem sobreviver.</string>
+    <string name="pergunta_nome">Qual é o seu nome?</string>
+    <string name="pergunta_nome_dois">Revele sua identidade secreta.</string>
+    <string name="nome">Nome</string>
+    <string name="campo_nome">nome</string>
+    <string name="nome_campo">name</string>
+    <string name="proxima">proxima</string>
+    <string name="batalha">Batalha</string>
+    <string name="jogador">Ana Nascimento</string>
+    <string name="nivel">Nível 5</string>
+    <string name="continuar">Continuar</string>
+    <string name="personagens">Personagens</string>
+    <string name="heroi1">Nome do Herói</string>
+    <string name="heroi2">Nome do Herói</string>
+    <string name="heroi3">Nome do Herói</string>
+    <string name="heroi4">Indisponível</string>
+    <string name="heroi5">Indisponível</string>
+    <string name="descricao_heroi1">Descrição breve</string>
+    <string name="descricao_heroi2">Descrição breve</string>
+    <string name="descricao_heroi3">Descrição breve</string>
+    <string name="descricao_heroi4">Desbloqueado no nível 5</string>
+    <string name="descricao_heroi5">Desbloqueado no nível 7</string>
+    <string name="vs">vs</string>
+    <string name="jogador_um">Nome</string>
+    <string name="jogador_dois">Nome</string>
+    <string name="pontos_partida_jog_um">100 pontos</string>
+    <string name="pontos_partida_jog_dois">20 pontos</string>
+
+
+
+</resources>
+
