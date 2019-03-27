@@ -19,9 +19,7 @@
         android:background="@drawable/layout_shadow_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
 
@@ -33,6 +31,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:contentDescription="@string/descricao_estrela"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
@@ -41,6 +40,7 @@
 
     <TextView
 
+        android:id="@+id/textView48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -135,4 +135,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333"
         app:srcCompat="@drawable/carinha" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/personagem"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView48"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 </android.support.constraint.ConstraintLayout>
