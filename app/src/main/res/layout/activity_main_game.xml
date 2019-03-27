@@ -33,7 +33,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="48dp"
         android:background="@drawable/bot2"
-        android:fontFamily="@font/roboto_thin"
+        android:fontFamily="@font/lalezar"
         android:onClick="Click"
         android:text="@string/proxima"
         android:textSize="18sp"

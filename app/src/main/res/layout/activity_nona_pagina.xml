@@ -10,34 +10,33 @@
     <RelativeLayout
         android:id="@+id/rel_anything"
         android:layout_width="280dp"
-        android:layout_height="222dp"
+        android:layout_height="186dp"
         android:layout_alignParentStart="true"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="33dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/layout_shadow_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257">
+        app:layout_constraintTop_toTopOf="parent">
 
 
     </RelativeLayout>
 
     <EditText
         android:id="@+id/nome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="228dp"
+        android:layout_height="45dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:ems="10"
         android:autofillHints="@string/pergunta_nome"
+        android:ems="10"
+        android:fontFamily="@font/lalezar"
         android:hint="@string/nome"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
@@ -45,75 +44,64 @@
         app:layout_constraintStart_toStartOf="@+id/rel_anything"
         app:layout_constraintTop_toBottomOf="@+id/sample_text2"
         tools:ignore="UnusedAttribute" />
+
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="224dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="336dp"
-        android:fontFamily="@font/roboto"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lalezar"
         android:shadowColor="#707070"
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="10"
         android:text="@string/pergunta_nome"
-        android:textColor="#000000"
+        android:textColor="@android:color/tertiary_text_light"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.075" />
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toTopOf="@+id/rel_anything" />
 
     <ImageButton
         android:id="@+id/botao4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="152dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/conectar"
         android:onClick="Click"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rel_anything"
         app:srcCompat="@drawable/bot1" />
 
     <TextView
         android:id="@+id/bluetooth_conectar4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="152dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/ok"
         android:textColor="#f1f1f1"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/botao4"
+        app:layout_constraintEnd_toEndOf="@+id/botao4"
+        app:layout_constraintStart_toStartOf="@+id/botao4"
         app:layout_constraintTop_toTopOf="@+id/botao4" />
 
     <TextView
         android:id="@+id/sample_text2"
-        android:layout_width="253dp"
+        android:layout_width="195dp"
         android:layout_height="29dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/roboto"
+        android:fontFamily="@font/lalezar"
         android:text="@string/pergunta_nome_dois"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/botao4"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/rel_anything"
-        app:layout_constraintTop_toTopOf="@+id/textView17" />
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
 </android.support.constraint.ConstraintLayout>

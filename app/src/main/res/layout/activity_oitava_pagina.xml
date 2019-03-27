@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/rel_anything"
         android:layout_width="318dp"
-        android:layout_height="450dp"
+        android:layout_height="526dp"
         android:layout_alignParentStart="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="50dp"
@@ -20,8 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.433">
+        app:layout_constraintTop_toTopOf="parent">
 
     </RelativeLayout>
 
@@ -32,7 +31,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="524dp"
-        android:fontFamily="@font/roboto"
+        android:fontFamily="@font/lalezar"
         android:shadowColor="#000000"
         android:shadowDx="5"
         android:shadowDy="5"
@@ -82,7 +81,7 @@
         android:id="@+id/textView19"
         android:layout_width="250dp"
         android:layout_height="56dp"
-        android:fontFamily="@font/roboto"
+        android:fontFamily="@font/lalezar"
         android:text="@string/topico_tres_tutorial"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
@@ -95,7 +94,7 @@
         android:layout_width="253dp"
         android:layout_height="83dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/roboto"
+        android:fontFamily="@font/lalezar"
         android:text="@string/topico_um_tutorial"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
@@ -107,7 +106,7 @@
         android:layout_width="251dp"
         android:layout_height="44dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/roboto"
+        android:fontFamily="@font/lalezar"
         android:lineSpacingExtra="18sp"
         android:text="@string/topico_dois_tutorial"
         android:textSize="18sp"
@@ -120,7 +119,7 @@
         android:layout_width="246dp"
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/roboto"
+        android:fontFamily="@font/lalezar"
         android:text="@string/topico_quatro_tutorial"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"

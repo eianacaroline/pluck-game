@@ -34,10 +34,13 @@
         android:id="@+id/imageView17"
         android:layout_width="wrap_content"
         android:layout_height="160dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/historico"
-        tools:layout_editor_absoluteX="61dp" />
+        app:srcCompat="@drawable/historico" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -73,7 +76,8 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/nivel"
         android:textColor="@android:color/white"
         android:textSize="36sp"
@@ -89,6 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginBottom="60dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/pontuacao"
         android:textColor="@android:color/white"
         android:textSize="18sp"
@@ -102,6 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="60dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/pontos_tres"
         android:textColor="@android:color/white"
         android:textSize="20sp"
@@ -115,82 +121,18 @@
         android:layout_width="119dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/pontos_faltando"
         android:textAlignment="center"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17"
-        app:srcCompat="@drawable/partida_um" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="302dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/partida_tres" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/partida_quatro"
-        tools:layout_editor_absoluteY="487dp" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView24"
-        app:srcCompat="@drawable/partida_quatro" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:srcCompat="@drawable/partida_cinco" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView26"
@@ -200,7 +142,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView35"
         app:srcCompat="@drawable/barra_partida" />
@@ -213,7 +154,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView36"
         app:srcCompat="@drawable/barra_partida" />
@@ -226,7 +166,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
         app:srcCompat="@drawable/barra_partida" />
@@ -239,7 +178,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView32"
         app:srcCompat="@drawable/barra_partida" />
@@ -252,7 +190,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView34"
         app:srcCompat="@drawable/barra_partida" />
@@ -267,7 +204,6 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView31"
         app:layout_constraintVertical_bias="0.0"
@@ -278,10 +214,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView26"
         app:srcCompat="@drawable/barra_partida" />
@@ -310,6 +245,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/vs"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView36"
@@ -325,6 +261,7 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="32dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/jogador_um"
         android:textColor="@android:color/black"
         android:textSize="12sp"
@@ -343,6 +280,7 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/jogador_dois"
         android:textColor="@android:color/black"
         android:textSize="12sp"
@@ -360,6 +298,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/pontos_partida_jog_um"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView36"
@@ -376,6 +315,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="6dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lalezar"
         android:text="@string/pontos_partida_jog_dois"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView36"
