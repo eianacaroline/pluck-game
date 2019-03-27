@@ -15,15 +15,17 @@
     <string name="bluetooth_traje_dois">Traje 5DH-60</string>
     <string name="conectar">Conectar.</string>
     <string name="pausa">Pausa.</string>
-    <string name="personagem">Personagem.</string>
+    <string name="personagem">Personagem</string>
     <string name="vida">Vida</string>
     <string name="derrota">Não foi dessa vez.</string>
     <string name="ok">OK</string>
+    //AJUDA!!!
     <string name="pontuacao">Pontos:</string>
     <string name="pontos">0</string>
     <string name="pontos_dois">+100</string>
     <string name="pontos_tres">5900</string>
     <string name="pontos_faltando">Faltam 100 para o próximo nível</string>
+   //
     <string name="vitoria">Vencedor</string>
     <string name="tutorial">Como jogar: </string>
     <string name="topico_um_tutorial">• Antes de iniciar o jogo, afaste o máximo possível do seu adversário;</string>
@@ -56,8 +58,8 @@
     <string name="jogador_dois">Nome</string>
     <string name="pontos_partida_jog_um">100 pontos</string>
     <string name="pontos_partida_jog_dois">20 pontos</string>
-
-
-
+// DecimaPagina
+    <string name="trocar">Trocar</string>
+    <string name="descricao_batalha">Ir para a página de batalha</string>
 </resources>
 

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DecimaSegundaPagina"></activity>
+        <activity android:name=".decima_pagina"></activity>
+        <activity android:name=".DecimaSegundaPagina" />
         <activity android:name=".DecimaPrimeiraPagina" />
         <activity android:name=".MainActivity_game">
             <intent-filter>
