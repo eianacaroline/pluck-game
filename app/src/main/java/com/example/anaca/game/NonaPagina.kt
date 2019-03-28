@@ -9,7 +9,7 @@ class NonaPagina : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_nona_pagina)
+        setContentView(R.layout.activity_nonacopia_pagina)
     }
     fun Click(view: View) {
 

@@ -34,7 +34,7 @@
             android:layout_marginTop="-12dp"
             android:layout_marginEnd="21dp"
             android:layout_marginBottom="27dp"
-            android:contentDescription="TODO"
+            android:contentDescription="@string/descricao_estrela"
             app:srcCompat="@drawable/estrela" />
 
         <TextView
@@ -125,6 +125,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
         android:contentDescription="@string/descricao_sad"
         app:layout_constraintBottom_toTopOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"

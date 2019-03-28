@@ -49,7 +49,6 @@
             android:layout_marginTop="50dp"
             android:contentDescription="@string/descricao_card"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:srcCompat="@drawable/card" />
@@ -61,7 +60,6 @@
             android:layout_marginTop="24dp"
             android:contentDescription="@string/descricao_card"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView15"
             app:srcCompat="@drawable/card" />
@@ -84,7 +82,6 @@
             android:layout_marginTop="24dp"
             android:contentDescription="@string/descricao_card"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView11"
             app:srcCompat="@drawable/desbloquear" />
@@ -109,7 +106,6 @@
             android:layout_marginTop="24dp"
             android:contentDescription="@string/descricao_card"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView10"
             app:srcCompat="@drawable/card" />
@@ -123,7 +119,6 @@
             android:contentDescription="@string/descricao_card"
             app:layout_constraintBottom_toTopOf="@+id/imageView12"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.615"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView13"
             app:srcCompat="@drawable/desbloquear" />

@@ -10,33 +10,16 @@
     <RelativeLayout
         android:id="@+id/rel_anything"
         android:layout_width="312dp"
-        android:layout_height="407dp"
+        android:layout_height="440dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="22dp"
         android:background="@drawable/layout_shadow_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-
-        android:id="@+id/imageView7"
-        android:layout_width="47dp"
-        android:layout_height="53dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:contentDescription="@string/descricao_estrela"
-        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.863"
-        app:srcCompat="@drawable/estrela" />
 
     <TextView
 
@@ -45,32 +28,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="144dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/pontos_dois"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
+        app:layout_constraintBottom_toTopOf="@+id/bluetooth_conectar2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.804" />
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
 
     <ImageButton
         android:id="@+id/botao2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/conectar"
         android:onClick="Click"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
         app:layout_constraintTop_toBottomOf="@+id/rel_anything"
         app:srcCompat="@drawable/bot1" />
 
@@ -86,27 +64,6 @@
         app:layout_constraintEnd_toEndOf="@+id/botao2"
         app:layout_constraintStart_toStartOf="@+id/botao2"
         app:layout_constraintTop_toTopOf="@+id/botao2" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="159dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
-        android:fontFamily="@font/lalezar"
-        android:shadowColor="#000000"
-        android:shadowDx="5"
-        android:shadowDy="5"
-        android:shadowRadius="10"
-        android:text="@string/vitoria"
-        android:textColor="#D3D3D3"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -126,28 +83,59 @@
         android:id="@+id/imageView6"
         android:layout_width="118dp"
         android:layout_height="178dp"
-        android:layout_marginTop="8dp"
         android:contentDescription="@string/personagem"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="@+id/rel_anything"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
         app:srcCompat="@drawable/carinha" />
+
+    <ImageView
+
+        android:id="@+id/imageView7"
+        android:layout_width="47dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/descricao_estrela"
+        app:layout_constraintBottom_toTopOf="@+id/bluetooth_conectar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        app:srcCompat="@drawable/estrela" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/lalezar"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/vitoria"
+        android:textColor="#D3D3D3"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <TextView
         android:id="@+id/textView47"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/personagem"
         android:textColor="@android:color/tertiary_text_light"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView48"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/rel_anything"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 </android.support.constraint.ConstraintLayout>

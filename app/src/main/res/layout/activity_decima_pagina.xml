@@ -9,10 +9,9 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="184dp"
-        android:layout_height="265dp"
+        android:layout_width="169dp"
+        android:layout_height="248dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/personagem"
         android:onClick="Click3"
@@ -24,11 +23,9 @@
     <ImageButton
         android:id="@+id/imageButton8"
         android:layout_width="291dp"
-        android:layout_height="90dp"
+        android:layout_height="86dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:backgroundTint="@android:color/transparent"
         android:contentDescription="@string/descricao_batalha"
         android:onClick="Click"
@@ -37,7 +34,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView42"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/bot3" />
 
     <TextView
@@ -81,8 +79,7 @@
     <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_height="51dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/personagem"
         android:textColor="@android:color/white"
@@ -93,8 +90,8 @@
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:layout_width="264dp"
-        android:layout_height="105dp"
+        android:layout_width="275dp"
+        android:layout_height="89dp"
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/descricao_barra_nivel"
@@ -120,17 +117,20 @@
         android:shadowRadius="10"
         android:text="@string/jogador"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
         app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton11" />
+        app:layout_constraintTop_toTopOf="@+id/imageButton11"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView41"
-        android:layout_width="wrap_content"
-        android:layout_height="71dp"
-        android:layout_marginStart="15dp"
+        android:layout_width="117dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/lalezar"
         android:shadowColor="#707070"
@@ -139,32 +139,33 @@
         android:shadowRadius="10"
         android:text="@string/nivel"
         android:textColor="@android:color/white"
-        android:textSize="45sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
         app:layout_constraintEnd_toStartOf="@+id/imageButton12"
-        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageButton11"
         app:layout_constraintTop_toBottomOf="@+id/textView40"
-        app:layout_constraintVertical_bias="0.894" />
+        app:layout_constraintVertical_bias="0.636" />
 
     <ImageButton
         android:id="@+id/imageButton12"
-        android:layout_width="44dp"
-        android:layout_height="39dp"
+        android:layout_width="28dp"
+        android:layout_height="36dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginEnd="112dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/descricao_estrela"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
         app:layout_constraintEnd_toEndOf="@+id/imageButton11"
         app:layout_constraintTop_toTopOf="@+id/imageButton11"
+        app:layout_constraintVertical_bias="0.488"
         app:srcCompat="@drawable/estrela" />
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="31dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/lalezar"
         android:onClick="Click3"
@@ -179,29 +180,25 @@
     <TextView
         android:id="@+id/textView43"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="8dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/pontuacao"
         android:textColor="@color/colorAzul"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView44"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageButton11"
         app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
 
     <TextView
         android:id="@+id/textView44"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="300dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="130dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/pontos_tres"
         android:textColor="@color/colorAzul"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton11"
         app:layout_constraintStart_toEndOf="@+id/textView43"
         app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
 </android.support.constraint.ConstraintLayout>
