@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesteBluetooth"
+    android:background="@color/colorAzul">
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemI"
+        app:layout_constraintBottom_toTopOf="@+id/bluetooth_conectar14"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+        app:srcCompat="@drawable/bot2"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemG"
+        app:srcCompat="@drawable/bot2"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemE"
+        app:srcCompat="@drawable/bot2"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemJ"
+        app:layout_constraintBottom_toTopOf="@+id/bluetooth_conectar14"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@drawable/bot2"
+        tools:layout_editor_absoluteX="217dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemH"
+        app:srcCompat="@drawable/bot2"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot1"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot1"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot1"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot1"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnPersonagemC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot1"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="391dp"
+        android:layout_height="164dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="btnOk"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot3"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="196dp"
+        tools:text="c" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:text="a" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:text="e" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:text="g" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:text="b" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="188dp"
+        tools:text="d" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:text="f" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:text="h" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:text="j" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageButton24"
+        app:layout_constraintTop_toTopOf="@+id/imageButton24" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/conectar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="550dp"
+        tools:text="i" />
+
+</android.support.constraint.ConstraintLayout>
