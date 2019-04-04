@@ -9,22 +9,25 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="163dp"
-        android:layout_height="219dp"
+        android:layout_width="221dp"
+        android:layout_height="191dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/personagem"
         android:onClick="Click3"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView39"
-        app:srcCompat="@drawable/mago" />
+        app:srcCompat="@drawable/detonador" />
 
     <ImageButton
         android:id="@+id/imageButton8"
         android:layout_width="291dp"
         android:layout_height="86dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@android:color/transparent"
         android:contentDescription="@string/descricao_batalha"
@@ -166,7 +169,6 @@
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="31dp"
-        android:layout_marginTop="16dp"
         android:fontFamily="@font/lalezar"
         android:onClick="Click3"
         android:text="@string/trocar"
