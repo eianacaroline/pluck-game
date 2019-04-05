@@ -10,6 +10,7 @@ class decima_pagina : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_decima_pagina)}
+        mensagemRecebida.setText(intent.getStringExtra("jogador"))
 
         fun Click(view: View) {
 
@@ -31,4 +32,5 @@ class decima_pagina : AppCompatActivity() {
         var intent: Intent = Intent(this, DecimaPrimeiraPagina::class.java)
         startActivity(intent)
     }
+
 }

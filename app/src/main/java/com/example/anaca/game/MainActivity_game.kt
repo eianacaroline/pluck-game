@@ -18,7 +18,7 @@ class MainActivity_game : AppCompatActivity() {
 
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,decima_pagina::class.java)
+        var intent: Intent = Intent(this,NonaPagina::class.java)
         startActivity(intent)
         }
     }

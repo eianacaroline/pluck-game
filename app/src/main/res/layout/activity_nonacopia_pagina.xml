@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NonaPagina"
+    tools:context="NonaPagina"
     android:background="@color/colorAzul">
 
     <RelativeLayout
@@ -34,10 +34,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:autofillHints="@string/pergunta_nome"
+        android:autofillHints="pergunta_nome"
         android:ems="10"
         android:fontFamily="@font/lalezar"
-        android:hint="@string/nome"
+        android:hint="nome"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
@@ -56,7 +56,7 @@
         android:shadowDy="5"
         android:shadowRadius="10"
         android:text="@string/pergunta_nome"
-        android:textColor="@android:color/tertiary_text_light"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
         app:layout_constraintStart_toStartOf="@+id/rel_anything"

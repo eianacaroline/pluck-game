@@ -14,6 +14,7 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#f1f1f1"
@@ -23,39 +24,34 @@
         android:progressTint="@color/colorRosa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/um"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="48dp"
-        android:background="@drawable/bot2"
-        android:contentDescription="@string/descricao_batalha"
-        android:fontFamily="@font/lalezar"
-        android:onClick="Click"
-        android:text="@string/proxima"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/progressBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton13" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="250dp"
         android:layout_height="170dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:contentDescription="@string/descricao_logo"
-        app:layout_constraintBottom_toTopOf="@+id/um"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="Click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/bot2" />
 
 </android.support.constraint.ConstraintLayout>

@@ -4,6 +4,8 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
+
 
 class NonaPagina : AppCompatActivity() {
 
@@ -13,7 +15,8 @@ class NonaPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,decima_pagina::class.java)
-        startActivity(intent)
+        var intent: Intent = Intent(this@NonaPagina, decima_pagina::class.java)
+        intent.putExtra("jogador",editActivityMain.text.toString())
+        startActivityForResult(intent,12)
     }
 }
