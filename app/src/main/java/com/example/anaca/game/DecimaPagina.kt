@@ -6,13 +6,17 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import android.app.AlertDialog
+import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
+import kotlinx.android.synthetic.main.decima_pagina.*
 
 class DecimaPagina : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.decima_pagina)
-        //mensagemRecebida.setText(intent.getStringExtra("jogador"))
+        recebeNome.setText(intent.getStringExtra("nomeJogador"))
+        //recebePersonagem.setImage(intent.getStringExtra("imagemPersonagem"))
+        recebePersonagemTexto.setText(intent.getStringExtra("txtPersonagem"))
     }
     fun Click(view: View) {
 

@@ -25,10 +25,10 @@
 
     //Pagina Principal
     <string name="personagem">Personagem</string>
-    <string name="jogador">Ana Nascimento</string>
+    <string name="jogador">Anônimo</string>
     <string name="nivel">Nível 5</string>
     <string name="pontuacao">Pontos:</string>
-    <string name="pontos_tres">5900</string>
+    <string name="pontos_tres">0</string>
     <string name="trocar">Trocar</string>
     <string name="descricao_batalha">Ir para a página de batalha</string>
     <string name="descricao_info">Informaçoes de como jogar</string>

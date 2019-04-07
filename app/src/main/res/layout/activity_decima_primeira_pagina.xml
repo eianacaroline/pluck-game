@@ -43,25 +43,27 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="392dp"
+            android:id="@+id/cardDetonador"
+            android:layout_width="377dp"
             android:layout_height="254dp"
             android:layout_marginTop="50dp"
             android:contentDescription="@string/descricao_card"
+            android:onClick="ClickDetonador"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:srcCompat="@drawable/card" />
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/cardNebulosa"
             android:layout_width="392dp"
             android:layout_height="254dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/descricao_card"
+            android:onClick="ClickNebulosa"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+            app:layout_constraintTop_toBottomOf="@+id/cardMago"
             app:srcCompat="@drawable/card" />
 
         <ImageView
@@ -76,14 +78,16 @@
             app:srcCompat="@drawable/card" />
 
         <ImageView
-            android:id="@+id/imageView13"
+            android:id="@+id/cardSniper"
             android:layout_width="392dp"
             android:layout_height="254dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/descricao_card"
+            android:onClick="ClickSniper"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView11"
+            app:layout_constraintTop_toBottomOf="@+id/cardNebulosa"
             app:srcCompat="@drawable/card" />
 
         <ImageView
@@ -96,106 +100,109 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.472"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="@+id/cardNebulosa"
             app:srcCompat="@drawable/desbloquear" />
 
         <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/cardMago"
             android:layout_width="392dp"
             android:layout_height="254dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/descricao_card"
+            android:onClick="ClickMago"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/cardDetonador"
             app:srcCompat="@drawable/card" />
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/cardValente"
             android:layout_width="392dp"
             android:layout_height="254dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="7318dp"
             android:contentDescription="@string/descricao_card"
+            android:onClick="ClickValente"
             app:layout_constraintBottom_toTopOf="@+id/imageView12"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/cardSniper"
             app:srcCompat="@drawable/card" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/heroi1"
             android:layout_width="192dp"
             android:layout_height="35dp"
             android:layout_marginBottom="600dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/heroi1"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintBottom_toBottomOf="@+id/cardDetonador"
+            app:layout_constraintEnd_toEndOf="@+id/cardDetonador"
             app:layout_constraintHorizontal_bias="0.91"
-            app:layout_constraintStart_toStartOf="@+id/imageView10"
-            app:layout_constraintTop_toTopOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="@+id/cardDetonador"
+            app:layout_constraintTop_toTopOf="@+id/cardDetonador"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/heroi2"
             android:layout_width="190dp"
             android:layout_height="32dp"
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/heroi2"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView15"
-            app:layout_constraintEnd_toEndOf="@+id/imageView15"
+            app:layout_constraintBottom_toBottomOf="@+id/cardMago"
+            app:layout_constraintEnd_toEndOf="@+id/cardMago"
             app:layout_constraintHorizontal_bias="0.905"
-            app:layout_constraintStart_toStartOf="@+id/imageView15"
-            app:layout_constraintTop_toTopOf="@+id/imageView15"
+            app:layout_constraintStart_toStartOf="@+id/cardMago"
+            app:layout_constraintTop_toTopOf="@+id/cardMago"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/heroi3"
             android:layout_width="110dp"
             android:layout_height="36dp"
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/heroi3"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView11"
-            app:layout_constraintEnd_toEndOf="@+id/imageView11"
+            app:layout_constraintBottom_toBottomOf="@+id/cardNebulosa"
+            app:layout_constraintEnd_toEndOf="@+id/cardNebulosa"
             app:layout_constraintHorizontal_bias="0.641"
-            app:layout_constraintStart_toStartOf="@+id/imageView11"
-            app:layout_constraintTop_toTopOf="@+id/imageView11"
+            app:layout_constraintStart_toStartOf="@+id/cardNebulosa"
+            app:layout_constraintTop_toTopOf="@+id/cardNebulosa"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/heroi4"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/heroi4"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView13"
-            app:layout_constraintEnd_toEndOf="@+id/imageView13"
+            app:layout_constraintBottom_toBottomOf="@+id/cardSniper"
+            app:layout_constraintEnd_toEndOf="@+id/cardSniper"
             app:layout_constraintHorizontal_bias="0.55"
-            app:layout_constraintStart_toStartOf="@+id/imageView13"
-            app:layout_constraintTop_toTopOf="@+id/imageView13"
+            app:layout_constraintStart_toStartOf="@+id/cardSniper"
+            app:layout_constraintTop_toTopOf="@+id/cardSniper"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/heroi5"
             android:layout_width="wrap_content"
             android:layout_height="29dp"
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/heroi5"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-            app:layout_constraintEnd_toEndOf="@+id/imageView16"
+            app:layout_constraintBottom_toBottomOf="@+id/cardValente"
+            app:layout_constraintEnd_toEndOf="@+id/cardValente"
             app:layout_constraintHorizontal_bias="0.577"
-            app:layout_constraintStart_toStartOf="@+id/imageView16"
-            app:layout_constraintTop_toTopOf="@+id/imageView16"
+            app:layout_constraintStart_toStartOf="@+id/cardValente"
+            app:layout_constraintTop_toTopOf="@+id/cardValente"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -205,11 +212,11 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/descricao_heroi1"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintBottom_toBottomOf="@+id/cardDetonador"
+            app:layout_constraintEnd_toEndOf="@+id/cardDetonador"
             app:layout_constraintHorizontal_bias="0.921"
-            app:layout_constraintStart_toStartOf="@+id/imageView10"
-            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:layout_constraintStart_toStartOf="@+id/cardDetonador"
+            app:layout_constraintTop_toBottomOf="@+id/heroi1"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -220,11 +227,11 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/descricao_heroi5"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-            app:layout_constraintEnd_toEndOf="@+id/imageView16"
+            app:layout_constraintBottom_toBottomOf="@+id/cardValente"
+            app:layout_constraintEnd_toEndOf="@+id/cardValente"
             app:layout_constraintHorizontal_bias="0.941"
-            app:layout_constraintStart_toStartOf="@+id/imageView16"
-            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            app:layout_constraintStart_toStartOf="@+id/cardValente"
+            app:layout_constraintTop_toBottomOf="@+id/heroi5"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -234,11 +241,11 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/descricao_heroi4"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView13"
-            app:layout_constraintEnd_toEndOf="@+id/imageView13"
+            app:layout_constraintBottom_toBottomOf="@+id/cardSniper"
+            app:layout_constraintEnd_toEndOf="@+id/cardSniper"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/imageView13"
-            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            app:layout_constraintStart_toStartOf="@+id/cardSniper"
+            app:layout_constraintTop_toBottomOf="@+id/heroi4"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -249,11 +256,11 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/descricao_heroi3"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView11"
-            app:layout_constraintEnd_toEndOf="@+id/imageView11"
+            app:layout_constraintBottom_toBottomOf="@+id/cardNebulosa"
+            app:layout_constraintEnd_toEndOf="@+id/cardNebulosa"
             app:layout_constraintHorizontal_bias="0.886"
-            app:layout_constraintStart_toStartOf="@+id/imageView11"
-            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            app:layout_constraintStart_toStartOf="@+id/cardNebulosa"
+            app:layout_constraintTop_toBottomOf="@+id/heroi3"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -263,75 +270,81 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/descricao_heroi2"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView15"
-            app:layout_constraintEnd_toEndOf="@+id/imageView15"
+            app:layout_constraintBottom_toBottomOf="@+id/cardMago"
+            app:layout_constraintEnd_toEndOf="@+id/cardMago"
             app:layout_constraintHorizontal_bias="0.963"
-            app:layout_constraintStart_toStartOf="@+id/imageView15"
-            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:layout_constraintStart_toStartOf="@+id/cardMago"
+            app:layout_constraintTop_toBottomOf="@+id/heroi2"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="202dp"
-            android:layout_height="237dp"
+            android:layout_width="174dp"
+            android:layout_height="167dp"
             android:layout_marginEnd="205dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-            app:layout_constraintEnd_toEndOf="@+id/imageView10"
-            app:layout_constraintStart_toStartOf="@+id/imageView10"
-            app:layout_constraintTop_toTopOf="@+id/imageView10"
+            app:layout_constraintBottom_toBottomOf="@+id/cardDetonador"
+            app:layout_constraintEnd_toEndOf="@+id/cardDetonador"
+            app:layout_constraintStart_toStartOf="@+id/cardDetonador"
+            app:layout_constraintTop_toTopOf="@+id/cardDetonador"
             app:srcCompat="@drawable/detonador" />
 
         <ImageView
             android:id="@+id/imageView18"
-            android:layout_width="138dp"
-            android:layout_height="190dp"
+            android:layout_width="181dp"
+            android:layout_height="172dp"
             android:layout_marginEnd="190dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView15"
-            app:layout_constraintEnd_toEndOf="@+id/imageView15"
-            app:layout_constraintStart_toStartOf="@+id/imageView15"
-            app:layout_constraintTop_toTopOf="@+id/imageView15"
+            app:layout_constraintBottom_toBottomOf="@+id/cardMago"
+            app:layout_constraintEnd_toEndOf="@+id/cardMago"
+            app:layout_constraintStart_toStartOf="@+id/cardMago"
+            app:layout_constraintTop_toTopOf="@+id/cardMago"
             app:layout_constraintVertical_bias="0.359"
             app:srcCompat="@drawable/mago" />
 
         <ImageView
             android:id="@+id/imageView21"
-            android:layout_width="202dp"
-            android:layout_height="280dp"
+            android:layout_width="169dp"
+            android:layout_height="204dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="200dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView11"
-            app:layout_constraintEnd_toEndOf="@+id/imageView11"
-            app:layout_constraintStart_toStartOf="@+id/imageView11"
-            app:layout_constraintTop_toTopOf="@+id/imageView11"
+            app:layout_constraintBottom_toBottomOf="@+id/cardNebulosa"
+            app:layout_constraintEnd_toEndOf="@+id/cardNebulosa"
+            app:layout_constraintHorizontal_bias="0.264"
+            app:layout_constraintStart_toStartOf="@+id/cardNebulosa"
+            app:layout_constraintTop_toTopOf="@+id/cardNebulosa"
             app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/nebulosa" />
 
         <ImageView
             android:id="@+id/imageView22"
-            android:layout_width="193dp"
-            android:layout_height="301dp"
+            android:layout_width="161dp"
+            android:layout_height="213dp"
             android:layout_marginEnd="260dp"
             android:layout_marginBottom="24dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView13"
-            app:layout_constraintEnd_toEndOf="@+id/imageView13"
-            app:layout_constraintStart_toStartOf="@+id/imageView13"
-            app:layout_constraintTop_toTopOf="@+id/imageView13"
+            app:layout_constraintBottom_toBottomOf="@+id/cardSniper"
+            app:layout_constraintEnd_toEndOf="@+id/cardSniper"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/cardSniper"
+            app:layout_constraintTop_toTopOf="@+id/cardSniper"
+            app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@drawable/sniper" />
 
         <ImageView
             android:id="@+id/imageView23"
-            android:layout_width="341dp"
-            android:layout_height="299dp"
+            android:layout_width="142dp"
+            android:layout_height="278dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="190dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-            app:layout_constraintEnd_toEndOf="@+id/imageView16"
-            app:layout_constraintStart_toStartOf="@+id/imageView16"
-            app:layout_constraintTop_toTopOf="@+id/imageView16"
+            app:layout_constraintBottom_toBottomOf="@+id/cardValente"
+            app:layout_constraintEnd_toEndOf="@+id/cardValente"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cardValente"
+            app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@drawable/valente" />
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
