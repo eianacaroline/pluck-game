@@ -13,7 +13,7 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,decima_pagina::class.java)
+        var intent: Intent = Intent(this,DecimaPagina::class.java)
         startActivity(intent)
     }
 }

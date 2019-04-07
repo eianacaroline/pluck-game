@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Holo.Dialog"
+    android:id="@+id/rel_anything"
+    android:layout_alignParentStart="true"
+    android:background="@drawable/layout_shadow_white">
+
+
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="255dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/lalezar"
+        android:shadowColor="#717171"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/tutorial"
+        android:textColor="#707070"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/topico_um_tutorial"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/botao4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/conectar"
+        android:onClick="Click"
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/topico_tres_tutorial"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/topico_quatro_tutorial"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="287dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/lalezar"
+        android:lineSpacingExtra="18sp"
+        android:text="@string/topico_dois_tutorial"
+        android:textSize="18sp" />
+
+</LinearLayout>

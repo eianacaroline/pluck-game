@@ -81,6 +81,7 @@
     <string name="topico_tres_inicio_jogo">• Mire no colete;</string>
     <string name="topico_quatro_inicio_jogo">• Vence quem sobreviver.</string>
 
+
     //Batalha
     <string name="vida">Vida</string>
 
@@ -98,6 +99,8 @@
     //
     <string name="campo_nome">nome</string>
     <string name="nome_campo">name</string>
+
+
 
 
 </resources>
