@@ -15,7 +15,6 @@ class MainActivity_game : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_game)
 
-
     }
 
     fun Click(view: View) {

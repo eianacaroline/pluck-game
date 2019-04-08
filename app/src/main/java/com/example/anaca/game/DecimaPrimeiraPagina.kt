@@ -20,7 +20,6 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
         startActivity(intent)
     }
 
-
     fun ClickDetonador(view: View) {
 
         val intent: Intent = Intent(this,DecimaPagina::class.java)

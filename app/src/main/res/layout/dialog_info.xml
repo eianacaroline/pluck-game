@@ -57,7 +57,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="match_parent"
+        android:layout_width="276dp"
         android:layout_height="42dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/topico_quatro_tutorial"

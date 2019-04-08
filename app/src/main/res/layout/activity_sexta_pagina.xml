@@ -129,8 +129,10 @@
         android:contentDescription="@string/descricao_sad"
         app:layout_constraintBottom_toTopOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rel_anything"
+        app:layout_constraintVertical_bias="0.378"
         app:srcCompat="@drawable/sad" />
 
 

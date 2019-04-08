@@ -18,6 +18,5 @@ class NonaPagina : AppCompatActivity() {
         var intent: Intent = Intent(this@NonaPagina, DecimaPagina::class.java)
         intent.putExtra("nomeJogador",nome.text.toString())
         startActivity(intent)
-
     }
 }

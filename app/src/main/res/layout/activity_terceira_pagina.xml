@@ -109,11 +109,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toTopOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rel_anything"
-        app:srcCompat="@drawable/bluetooth"
-        android:contentDescription="TODO" />
+        app:layout_constraintVertical_bias="0.741"
+        app:srcCompat="@drawable/bluetooth" />
 
 </android.support.constraint.ConstraintLayout>

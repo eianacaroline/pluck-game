@@ -54,6 +54,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            app:layout_constraintVertical_bias="0.452"
             app:srcCompat="@drawable/detonador" />
 
         <ImageView
