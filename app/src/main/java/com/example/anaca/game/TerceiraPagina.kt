@@ -10,6 +10,7 @@ class TerceiraPagina : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_terceira_pagina)
+
     }
     fun Click(view: View) {
 

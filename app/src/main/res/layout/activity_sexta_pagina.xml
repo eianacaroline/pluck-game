@@ -51,7 +51,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/txtInstrucoes"
         android:layout_width="216dp"
         android:layout_height="133dp"
         android:layout_marginStart="8dp"
@@ -86,7 +86,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/txtInstrucoes"
         app:layout_constraintVertical_bias="0.29" />
 
     <ImageButton
