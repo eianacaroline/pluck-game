@@ -100,7 +100,9 @@
     <string name="campo_nome">nome</string>
     <string name="nome_campo">name</string>
 
-
+    //Ligar Bluetooth
+    <string name="ligar_bluetooth">Ligue seu Bluetooth para continuar</string>
+    <string name="botao_ligar">Ligar</string>
 
 
 </resources>

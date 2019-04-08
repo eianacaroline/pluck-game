@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AplcacaoArduino">
+
+    <Button
+            android:text="LIgar"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:id="@+id/btnLigar"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnDesligar"/>
+    <Button
+            android:text="Desligar"
+            android:layout_width="92dp"
+            android:layout_height="43dp"
+            android:id="@+id/btnDesligar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnPiscar" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="55dp"/>
+    <Button
+            android:text="Piscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPiscar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnLerDados" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="110dp"/>
+    <Button
+            android:text="Ler dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLerDados"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/txtReceber" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="158dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="182dp"
+            android:layout_height="187dp"
+            android:id="@+id/txtReceber"
+            app:layout_constraintTop_toBottomOf="@+id/btnLerDados"
+            app:layout_constraintBottom_toTopOf="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtReceber" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/textView3"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/txtReceber"
+            app:layout_constraintStart_toEndOf="@+id/textView2" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>

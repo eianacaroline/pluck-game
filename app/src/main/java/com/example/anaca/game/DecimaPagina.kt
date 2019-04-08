@@ -20,7 +20,7 @@ class DecimaPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,TerceiraPagina::class.java)
+        var intent: Intent = Intent(this,LigarBluetooth::class.java)
         startActivity(intent)
     }
 
