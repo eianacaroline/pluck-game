@@ -44,11 +44,11 @@
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="174dp"
-            android:layout_height="167dp"
+            android:layout_width="141dp"
+            android:layout_height="165dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:scaleType="centerCrop"
+            android:scaleType="fitCenter"
             app:layout_constraintBottom_toTopOf="@+id/imageView18"
             app:layout_constraintEnd_toStartOf="@+id/imageView23"
             app:layout_constraintHorizontal_bias="0.5"
@@ -59,10 +59,9 @@
 
         <ImageView
             android:id="@+id/imageView18"
-            android:layout_width="181dp"
-            android:layout_height="172dp"
-            android:layout_marginTop="8dp"
-            android:scaleType="centerCrop"
+            android:layout_width="145dp"
+            android:layout_height="149dp"
+            android:scaleType="fitCenter"
             app:layout_constraintEnd_toStartOf="@+id/imageView21"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -71,24 +70,22 @@
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="189dp"
-            android:layout_height="233dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="117dp"
+            android:layout_height="171dp"
+            android:layout_marginStart="32dp"
             android:layout_marginEnd="8dp"
-            android:scaleType="centerCrop"
+            android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.055"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView18"
             app:srcCompat="@drawable/sniper" />
 
         <ImageView
             android:id="@+id/imageView21"
-            android:layout_width="169dp"
-            android:layout_height="204dp"
-            android:layout_marginTop="8dp"
-            android:scaleType="centerCrop"
+            android:layout_width="124dp"
+            android:layout_height="162dp"
+            android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/imageView18"
@@ -97,13 +94,41 @@
 
         <ImageView
             android:id="@+id/imageView23"
-            android:layout_width="142dp"
-            android:layout_height="278dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="123dp"
+            android:layout_height="193dp"
+            android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/imageView9"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:srcCompat="@drawable/valente" />
+
+        <ImageButton
+            android:id="@+id/botao_jogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:onClick="Click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:srcCompat="@drawable/bot1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lalezar"
+            android:text="@string/jogar"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/botao_jogar"
+            app:layout_constraintEnd_toEndOf="@+id/botao_jogar"
+            app:layout_constraintStart_toStartOf="@+id/botao_jogar"
+            app:layout_constraintTop_toTopOf="@+id/botao_jogar" />
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

@@ -8,8 +8,10 @@ import android.widget.Toast
 import android.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
 import kotlinx.android.synthetic.main.decima_pagina.*
+import java.lang.Exception
 
 class DecimaPagina : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,10 +19,19 @@ class DecimaPagina : AppCompatActivity() {
         recebeNome.setText(intent.getStringExtra("nomeJogador"))
         //recebePersonagem.setImage(intent.getStringExtra("imagemPersonagem"))
         recebePersonagemTexto.setText(intent.getStringExtra("txtPersonagem"))
+
+
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,LigarBluetooth::class.java)
+        val ch = 'P'
+        val bt = ch.toByte()
+        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
+        IniciaApp.comunicacaoBT!!.write(bt)
+
+
+
+        var intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
 

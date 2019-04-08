@@ -1,7 +1,9 @@
-package com.designinteracao.conexaocomarduino001
+package com.example.anaca.game
 
+import android.app.AlertDialog
 import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Message
@@ -29,10 +31,11 @@ class ComunicacaoBluetooth: Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
-        Log.d("mer","criando fragment")
         setRetainInstance(true);
+
+        Log.d("mer","criando Comunicação bt")
         mHandler=MHandler()
-        mConnectThread = ConnectThread(SelecionarDispositivo.mDevice)
+        mConnectThread = ConnectThread(IniciaApp.mDevice)
         mConnectThread!!.start()
 
     }
@@ -41,20 +44,18 @@ class ComunicacaoBluetooth: Fragment() {
     inner class MHandler:Handler()
     {
         override fun handleMessage(msg: Message) {
+
             val writeBuf = msg.obj as ByteArray
-            val writeMessage = String(writeBuf, Charset.forName("UTF-8"))
-            Log.d("mer","O que veio"+writeMessage)
-            try{
-                val lista=writeMessage.split(";")
-                val n=lista[0].toDouble()+10
-                Log.d("mer","valor:"+n)
-                medicoes.text=writeMessage
-            }catch (e:Exception)
-            {
-                Log.d("mer","erro"+e)
-            }
-
-
+                val writeMessage = String(writeBuf, Charset.forName("UTF-8"))
+                Log.d("mer", "O que veio" + writeMessage)
+                try {
+                    val lista = writeMessage.split(";")
+                    val n = lista[0].toDouble() + 10
+                    Log.d("mer", "valor:" + n)
+                    medicoes.text = writeMessage
+                } catch (e: Exception) {
+                    Log.d("mer", "erro" + e)
+                }
 
         }
     }
@@ -100,7 +101,7 @@ class ComunicacaoBluetooth: Fragment() {
             var tmp: BluetoothSocket? = null;
             mmDevice = device;
             try {
-                tmp = device.createRfcommSocketToServiceRecord(SelecionarDispositivo.HC05_UUID);
+                tmp = device.createRfcommSocketToServiceRecord(IniciaApp.HC05_UUID);
             } catch (e: IOException) {
                 Log.d("mer","erro para criar o socket")
 
@@ -110,7 +111,7 @@ class ComunicacaoBluetooth: Fragment() {
 
         override fun run() {
             mConnectedThread = null;
-            SelecionarDispositivo.mBluetoothAdapter!!.cancelDiscovery()
+            IniciaApp.mBluetoothAdapter!!.cancelDiscovery()
             try {
                 Log.d("mer","Estado do socket antes da conexao "+mmSocket)
 
@@ -188,8 +189,6 @@ class ComunicacaoBluetooth: Fragment() {
                 }
             }
             cancel()
-
-
         }
 
          fun write(bytes: Byte) {
@@ -205,8 +204,6 @@ class ComunicacaoBluetooth: Fragment() {
                 Log.d("mer", "fechando")
                 mmInStream!!.close()
                 mmOutStream!!.close()
-                // mmSocket.inputStream.close()
-                // mmSocket.outputStream.close()
                 mmSocket.close()
 
             } catch (e: IOException) {

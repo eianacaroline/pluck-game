@@ -104,6 +104,10 @@
     <string name="ligar_bluetooth">Ligue seu Bluetooth para continuar</string>
     <string name="botao_ligar">Ligar</string>
 
+    //Tela inimigos
+    <string name="jogar">Jogar</string>
+
+
 
 </resources>
 

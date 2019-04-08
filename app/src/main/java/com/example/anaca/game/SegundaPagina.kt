@@ -14,7 +14,7 @@ class SegundaPagina : AppCompatActivity() {
 
     fun Click(view: View) {
 
-        val intent: Intent = Intent(this,TerceiraPagina::class.java)
+        val intent: Intent = Intent(this,DecimaPagina::class.java)
         startActivity(intent)
     }
     fun Click1(view: View) {
