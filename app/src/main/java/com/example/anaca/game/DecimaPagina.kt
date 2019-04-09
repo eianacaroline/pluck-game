@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Toast
 import android.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
+import kotlinx.android.synthetic.main.activity_decima_segunda_pagina.*
 import kotlinx.android.synthetic.main.decima_pagina.*
 import java.lang.Exception
 
@@ -43,6 +44,7 @@ class DecimaPagina : AppCompatActivity() {
     fun Click2(view: View) {
 
         var intent: Intent = Intent(this,DecimaSegundaPagina::class.java)
+        intent.putExtra("nomeJogador",recebeNome.text.toString())
         startActivity(intent)
     }
 
@@ -52,6 +54,7 @@ class DecimaPagina : AppCompatActivity() {
         startActivity(intent)
     }
 
+    //Caixa de diálogo.
     fun Click4 (view: View) {
         val dialogInfo = AlertDialog.Builder(this@DecimaPagina).create()
         dialogInfo.setTitle("Como jogar: ")
