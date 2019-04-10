@@ -34,7 +34,7 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
 
     }
     fun ClickMago(view: View) {
-        val ch = 'b'
+        val ch = 'f'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
@@ -45,7 +45,7 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
         startActivity(intent)
     }
     fun ClickNebulosa(view: View) {
-        val ch = 'c'
+        val ch = 'm'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUÍNO
         IniciaApp.comunicacaoBT!!.write(bt)

@@ -32,7 +32,7 @@ class DecimaPagina : AppCompatActivity() {
 
 
 
-        var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
+        var intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
 
