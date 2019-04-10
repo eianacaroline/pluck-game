@@ -199,6 +199,7 @@ class ComunicacaoBluetooth: Fragment() {
 
             }
         }
+
         public fun cancel() {
             try {
                 Log.d("mer", "fechando")

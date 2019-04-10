@@ -9,42 +9,43 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
 
-         <activity android:name=".LigarBluetooth" />
-        <activity android:name=".activity_selecao_de_sala" />
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".TesteBluetooth" />
-        <activity android:name=".DecimaPagina" />
-        <activity android:name=".DecimaSegundaPagina" />
-        <activity android:name=".DecimaPrimeiraPagina" />
-        <activity android:name=".MainActivity_game" />
-        <activity android:name=".IniciaApp">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+       <!--  <activity android:name=".LigarBluetooth" /> -->
+        <!--  <activity android:name=".activity_selecao_de_sala" />-->
+        <!--  <activity android:name=".SplashScreen" />-->
+        <!--  <activity android:name=".TesteBluetooth" />-->
+        <!--<activity android:name=".DecimaPagina" />-->
+         <activity  android:name=".DecimaSegundaPagina" />
+         <activity  android:name=".DecimaPrimeiraPagina" />
+         <activity  android:name=".MainActivity_game"
+                    android:theme="@style/Theme.AppCompat.NoActionBar"/>
+         <activity android:name=".IniciaApp">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".SegundaPagina" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+         <activity android:name=".SegundaPagina" />
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+         <meta-data
+             android:name="preloaded_fonts"
+             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".TerceiraPagina" />
-        <activity android:name=".QuartaPagina" />
-        <activity android:name=".QuintaPagina" />
-        <activity android:name=".SextaPagina" />
-        <activity android:name=".SetimaPagina" />
-        <activity android:name=".OitavaPagina" />
-        <activity android:name=".NonaPagina" />
-        <activity android:name=".DecimaPagina" />
-    </application>
+        <!--  <activity android:name=".TerceiraPagina" /> -->
+         <activity android:name=".QuartaPagina" />
+         <activity android:name=".QuintaPagina" />
+         <activity android:name=".SextaPagina" />
+         <activity android:name=".SetimaPagina" />
+         <activity android:name=".OitavaPagina" />
+         <activity android:name=".NonaPagina" />
+         <activity android:name=".DecimaPagina" />
+     </application>
 
-</manifest>
+ </manifest>

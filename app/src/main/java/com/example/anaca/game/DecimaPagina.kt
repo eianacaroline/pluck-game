@@ -25,14 +25,14 @@ class DecimaPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        val ch = 'P'
+        /*val ch = 'P'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
-        IniciaApp.comunicacaoBT!!.write(bt)
+        IniciaApp.comunicacaoBT!!.write(bt)*/
 
 
 
-        var intent: Intent = Intent(this,SegundaPagina::class.java)
+        var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         startActivity(intent)
     }
 
