@@ -4,13 +4,23 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_quinta_pagina.*
 
 class QuintaPagina : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quinta_pagina)
+
+        IniciaApp.comunicacaoBT.SetTxtReceber(txtVida)
+
+        var abc:String=txtVida.text.toString()
+        var k:Int=abc.toInt()
+
+
     }
+
+
     fun Click(view: View) {
 
         var intent: Intent = Intent(this,SextaPagina::class.java)
