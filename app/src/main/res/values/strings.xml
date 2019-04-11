@@ -61,9 +61,9 @@
     <string name="heroi4">Sniper</string>
     <string name="heroi5">Valente</string>
     <string name="descricao_heroi1"> O Detonador com sua resistência maior aos tiros pode durar mais no campo de batalha.</string>
-    <string name="descricao_heroi2">A aparência do mago pode te enganar, pois com seus poderes ele pode eliminar qualquer jogador em segundos.</string>
+    <string name="descricao_heroi2">O Mago com seus poderes ele pode eliminar qualquer jogador em segundos.</string>
     <string name="descricao_heroi3">Não se iluda com a Nebulosa, ela é incrivelmente resistente aos tiros dos outros jogadores. </string>
-    <string name="descricao_heroi4">O Sniper com sua agilidade e precisão no gatilho, consegue atingir o outro jogador de forma rápida. </string>
+    <string name="descricao_heroi4">Com agilidade e precisão no gatilho, o Sniper atinge o outro jogador de forma rápida. </string>
     <string name="descricao_heroi5">O Valente com a sua incrível força, pode causar dano ate no jogador mais experiente. </string>
     <string name="descricao_card">Cards que irão conter as informaçoes dos personagens</string>
     <string name="vida_hab">Vida</string>

@@ -14,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="120dp"
         android:layout_marginEnd="36dp"
         android:background="@drawable/layout_shadow_white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +59,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/lalezar"
         android:lineSpacingExtra="-30sp"
-        android:shadowColor="#000000"
+        android:shadowColor="#00000f"
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="10"
@@ -120,19 +120,18 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="230dp"
-        android:layout_height="182dp"
+        android:layout_width="201dp"
+        android:layout_height="154dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/descricao_sad"
         app:layout_constraintBottom_toTopOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rel_anything"
-        app:layout_constraintVertical_bias="0.378"
+        app:layout_constraintVertical_bias="0.252"
         app:srcCompat="@drawable/sad" />
 
 

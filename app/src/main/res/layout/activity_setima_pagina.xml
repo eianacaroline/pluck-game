@@ -14,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="120dp"
         android:layout_marginEnd="22dp"
         android:background="@drawable/layout_shadow_white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,10 +75,10 @@
         android:contentDescription="@string/bluetooth"
         app:layout_constraintBottom_toTopOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rel_anything"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.442"
         app:srcCompat="@drawable/estrela" />
 
     <ImageView
@@ -116,7 +116,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/lalezar"
-        android:shadowColor="#000000"
+        android:shadowColor="#00000f"
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="10"

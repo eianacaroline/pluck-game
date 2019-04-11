@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAmarelo">#ffc900</color>
+    <color name="colorAmarelo">#FFC900</color>
     <color name="colorVerde">#007682</color>
     <color name="colorRosa">#ff0464</color>
     <color name="colorAzul">#1F114A</color>
     <color name="colorAccent">#ffc900</color>
     <color name="colorPrimary">#007682</color>
-    <color name="colorPrimaryDark">#034147</color>
+    <color name="colorPrimaryDark">#130A2D</color>
 
 </resources>
