@@ -37,11 +37,25 @@
 
     //Pagina de Niveis
     <string name="pontos_faltando">Faltam 100 para o próximo nível</string>
-    <string name="jogador_um">Nome</string>
+    <string name="jogador_um">Adversário</string>
     <string name="jogador_dois">Nome</string>
     <string name="vs">vs</string>
-    <string name="pontos_partida_jog_um">100 pontos</string>
-    <string name="pontos_partida_jog_dois">20 pontos</string>
+    //peimeiro jogador
+    <string name="pontos_partida_um">20 pontos</string>
+    <string name="pontos_partida_dois">50 pontos</string>
+    <string name="pontos_partida_tres">20 pontos</string>
+    <string name="pontos_partida_quatro">20 pontos</string>
+    <string name="pontos_partida_cinco">20 pontos</string>
+    <string name="pontos_partida_seis">50 pontos</string>
+    <string name="pontos_partida_sete">100 pontos</string>
+    //segundo jogador
+    <string name="pontos_partida_oito">100 pontos</string>
+    <string name="pontos_partida_nove">50 pontos</string>
+    <string name="pontos_partida_dez">100 pontos</string>
+    <string name="pontos_partida_onze">100 pontos</string>
+    <string name="pontos_partida_doze">100 pontos</string>
+    <string name="pontos_partida_treze">50 pontos</string>
+    <string name="pontos_partida_catorze">20 pontos</string>
     <string name="descricao_barra_resultado">Resultados das ultimas partidas</string>
     <string name="descricao_cor_jog_um">Cor escolhida de acordo com o personagem selecionado</string>
     <string name="descricao_cor_jog_dois">Cor escolhida de acordo com o personagem selecionado</string>

@@ -12,6 +12,12 @@ class DecimaSegundaPagina : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_decima_segunda_pagina)
         nomeJogador.setText(intent.getStringExtra("nomeJogador"))
+        nomeJogador2.setText(intent.getStringExtra("nomeJogador"))
+        nomeJogador3.setText(intent.getStringExtra("nomeJogador"))
+        nomeJogador4.setText(intent.getStringExtra("nomeJogador"))
+        nomeJogador5.setText(intent.getStringExtra("nomeJogador"))
+        nomeJogador6.setText(intent.getStringExtra("nomeJogador"))
+        nomeJogador7.setText(intent.getStringExtra("nomeJogador"))
     }
 
     fun Click(view: View) {
