@@ -83,7 +83,7 @@
 
 
     //Batalha
-    <string name="vida">Vida</string>
+    <string name="vida">Vida atual: </string>
 
     //Pausar
 

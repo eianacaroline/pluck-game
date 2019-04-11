@@ -97,21 +97,38 @@
         app:layout_constraintVertical_bias="0.367" />
 
     <TextView
+        android:id="@+id/Vida"
+        android:layout_width="65dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/vida"
+        android:textColor="#f1f1f1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar2"
+        app:layout_constraintEnd_toStartOf="@+id/txtVida"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <TextView
         android:id="@+id/txtVida"
         android:layout_width="65dp"
         android:layout_height="37dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="300dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/vida"
         android:textColor="#f1f1f1"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Vida"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.809" />
 
     <TextView
         android:id="@+id/textView13"

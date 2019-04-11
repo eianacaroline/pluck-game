@@ -14,12 +14,14 @@ class QuintaPagina : AppCompatActivity() {
 
         IniciaApp.comunicacaoBT.SetTxtReceber(txtVida)
 
-        var abc:String=txtVida.text.toString()
+        /*var abc:String=txtVida.text.toString()
         var k:Int=abc.toInt()
+        if (k<=0){
+            Toast.makeText(applicationContext, "morreu", Toast.LENGTH_SHORT).show()
+        }*/
 
 
     }
-
 
     fun Click(view: View) {
 
