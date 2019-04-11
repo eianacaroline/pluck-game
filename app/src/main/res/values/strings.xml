@@ -66,6 +66,9 @@
     <string name="descricao_heroi4">O Sniper com sua agilidade e precisão no gatilho, consegue atingir o outro jogador de forma rápida. </string>
     <string name="descricao_heroi5">O Valente com a sua incrível força, pode causar dano ate no jogador mais experiente. </string>
     <string name="descricao_card">Cards que irão conter as informaçoes dos personagens</string>
+    <string name="vida_hab">Vida</string>
+    <string name="cura_hab">Cura</string>
+    <string name="dano_hab">Dano</string>
 
     //Conectar no Bluetooth
     <string name="bluetooth">Simbolo bluetooth.</string>
