@@ -26,5 +26,4 @@ class SegundaPagina : AppCompatActivity() {
         val intent: Intent = Intent(this,QuintaPagina::class.java)
         startActivity(intent)
     }
-
 }

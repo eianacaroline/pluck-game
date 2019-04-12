@@ -16,7 +16,7 @@ class QuintaPagina : AppCompatActivity() {
         IniciaApp.comunicacaoBT.SetTxtReceber(txtVida)
 
         var abc:String=txtVida.text.toString()
-        if (abc == "Você está morto, plucky"){
+        if (abc == "n"){
             Toast.makeText(applicationContext, "morreu", Toast.LENGTH_SHORT).show()
         }
     }

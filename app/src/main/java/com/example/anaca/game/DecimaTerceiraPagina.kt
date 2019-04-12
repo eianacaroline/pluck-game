@@ -16,27 +16,11 @@ class DecimaTerceiraPagina : AppCompatActivity() {
 
     }
     fun Click(view: View) {
-        var intent: Intent = Intent(this,DecimaPagina::class.java)
+        var intent: Intent = Intent(this,DecimaPrimeiraPagina::class.java)
         startActivity(intent)
     }
 
     fun ClickDetonador1(view: View) {
-        val ch = 'f'
-        val bt = ch.toByte()
-        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
-        IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,SegundaPagina::class.java)
-        startActivity(intent)
-    }
-    fun ClickMago1(view: View) {
-        val ch = 'g'
-        val bt = ch.toByte()
-        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
-        IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,SegundaPagina::class.java)
-        startActivity(intent)
-    }
-    fun ClickNebulosa1(view: View) {
         val ch = 'h'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
@@ -44,7 +28,15 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
-    fun ClickSniper1(view: View) {
+    fun ClickMago1(view: View) {
+        val ch = 'j'
+        val bt = ch.toByte()
+        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
+        IniciaApp.comunicacaoBT!!.write(bt)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
+        startActivity(intent)
+    }
+    fun ClickNebulosa1(view: View) {
         val ch = 'i'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
@@ -52,8 +44,16 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
+    fun ClickSniper1(view: View) {
+        val ch = 'g'
+        val bt = ch.toByte()
+        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
+        IniciaApp.comunicacaoBT!!.write(bt)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
+        startActivity(intent)
+    }
     fun ClickValente1(view: View) {
-        val ch = 'j'
+        val ch = 'f'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)

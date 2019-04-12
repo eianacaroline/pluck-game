@@ -32,7 +32,7 @@ class DecimaPagina : AppCompatActivity() {
 
 
 
-        var intent: Intent = Intent(this,SegundaPagina::class.java)
+        var intent: Intent = Intent(this,DecimaPrimeiraPagina::class.java)
         startActivity(intent)
     }
 
@@ -50,7 +50,7 @@ class DecimaPagina : AppCompatActivity() {
 
     fun Click3 (view: View) {
 
-        var intent: Intent = Intent(this, DecimaPrimeiraPagina::class.java)
+        var intent: Intent = Intent(this, DecimaQuartaPagina::class.java)
         startActivity(intent)
     }
 
