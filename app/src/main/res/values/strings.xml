@@ -118,9 +118,11 @@
     <string name="campo_nome">nome</string>
     <string name="nome_campo">name</string>
 
-    //Ligar Bluetooth
-    <string name="ligar_bluetooth">Ligue seu Bluetooth para continuar</string>
-    <string name="botao_ligar">Ligar</string>
+    //Tela Sala
+    <string name="sala">Zona de batalha</string>
+    <string name="codigo">Digite o código de batalha</string>
+    <string name="botao_pronto">Pronto</string>
+    <string name="botao_gerar_codigo">Gerar código</string>
 
     //Tela inimigos
     <string name="jogar">Jogar</string>
