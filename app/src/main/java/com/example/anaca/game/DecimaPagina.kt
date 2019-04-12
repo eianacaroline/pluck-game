@@ -56,15 +56,16 @@ class DecimaPagina : AppCompatActivity() {
 
     //Caixa de diálogo.
     fun Click4 (view: View) {
-        val dialogInfo = AlertDialog.Builder(this@DecimaPagina).create()
+        val dialogInfo = AlertDialog.Builder(this).create()
         dialogInfo.setTitle("Como jogar: ")
         dialogInfo.setMessage("• Antes de iniciar o jogo, afaste o máximo possível do seu adversário\n \n" +
                 "• Aperte o botão para atirar\n \n" +
                 "• Mire no colete para causar dano\n \n" +
                 "• Vence quem sobreviver")
+
         dialogInfo.setButton(AlertDialog.BUTTON_POSITIVE, "OK") { dialog, which -> Toast.makeText(applicationContext, "You clicked on OK", Toast.LENGTH_SHORT).show() }
         dialogInfo.show()
     }
 
-
 }
+

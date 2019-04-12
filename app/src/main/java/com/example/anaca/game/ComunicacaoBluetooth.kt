@@ -10,6 +10,7 @@ import android.os.Message
 import android.support.v4.app.Fragment
 import android.util.Log
 import android.widget.TextView
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_aplcacao_arduino.*
 import java.io.IOException
 import java.io.InputStream
@@ -25,6 +26,7 @@ class ComunicacaoBluetooth: Fragment() {
     internal var mConnectedThread: ConnectedThread? = null
     private var mHandler: MHandler? = null
     lateinit var medicoes:TextView
+
 
 
 
@@ -52,6 +54,12 @@ class ComunicacaoBluetooth: Fragment() {
                     val lista = writeMessage.split(";")
                     val n = lista[0].toDouble() + 10
                     Log.d("mer", "valor:" + n)
+
+
+                    //Morreu
+                    if (writeMessage <= "0"){
+                       Log.d("mer","Morreu")
+                    }
                     medicoes.text = writeMessage
                 } catch (e: Exception) {
                     Log.d("mer", "erro" + e)
@@ -91,6 +99,7 @@ class ComunicacaoBluetooth: Fragment() {
     {
         medicoes=txtview
     }
+
 
     inner class ConnectThread : Thread {
         var mmSocket: BluetoothSocket?;

@@ -3,6 +3,7 @@ package com.example.anaca.game
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_quinta_pagina.*
@@ -15,17 +16,25 @@ class QuintaPagina : AppCompatActivity() {
 
         IniciaApp.comunicacaoBT.SetTxtReceber(txtVida)
 
-        var abc:String=txtVida.text.toString()
-        if (abc == "n"){
-            Toast.makeText(applicationContext, "morreu", Toast.LENGTH_SHORT).show()
+
+
+
+        var vida:String=txtVida.text.toString()
+        if (vida == "999"){
+            Toast.makeText(applicationContext, "morreu", Toast.LENGTH_LONG).show()
         }
+        /*if (Log.VERBOSE <=0){
+            Toast.makeText(applicationContext, "morreu", Toast.LENGTH_LONG).show()
+        }*/
     }
+
 
     fun Click(view: View) {
 
         var intent: Intent = Intent(this,SextaPagina::class.java)
         startActivity(intent)
     }
+
     fun Click1(view: View) {
 
         var intent: Intent = Intent(this,QuartaPagina::class.java)
