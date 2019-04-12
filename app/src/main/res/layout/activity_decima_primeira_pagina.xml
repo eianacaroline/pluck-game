@@ -350,6 +350,7 @@
             android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"
             android:backgroundTint="@android:color/transparent"
+            android:onClick="ClickNext"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.462"
             app:layout_constraintStart_toStartOf="parent"
@@ -763,6 +764,18 @@
             app:layout_constraintHorizontal_bias="0.513"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lalezar"
+            android:text="@string/jogar"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton14"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton14"
+            app:layout_constraintStart_toStartOf="@+id/imageButton14"
+            app:layout_constraintTop_toTopOf="@+id/imageButton14" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

@@ -26,31 +26,31 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-
         val intent: Intent = Intent(this,DecimaPagina::class.java)
-        //intent.putExtra("imagemPersonagem"!; R.drawable.detonador)
         intent.putExtra("txtPersonagem",heroi1.text.toString())
         startActivity(intent)
 
+        //intent.putExtra("imagemPersonagem"!; R.drawable.detonador)
+
     }
     fun ClickMago(view: View) {
-        val ch = 'f'
+        val ch = 'b'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
 
-        val intent: Intent = Intent(this@DecimaPrimeiraPagina,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         //intent.putExtra("imagemPersonagem"!; R.drawable.mago)
         intent.putExtra("txtPersonagem",heroi2.text.toString())
         startActivity(intent)
     }
     fun ClickNebulosa(view: View) {
-        val ch = 'm'
+        val ch = 'c'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUÍNO
         IniciaApp.comunicacaoBT!!.write(bt)
 
-        val intent: Intent = Intent(this,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         //intent.putExtra("imagemPersonagem"!; R.drawable.nebulosa)
         intent.putExtra("txtPersonagem",heroi3.text.toString())
         startActivity(intent)
@@ -77,11 +77,11 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
         intent.putExtra("txtPersonagem",heroi5.text.toString())
         startActivity(intent)
     }
-    /*fun ClickNext(view: View) {
+    fun ClickNext(view: View) {
 
         var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         startActivity(intent)
-    }*/
+    }
 }
 
 

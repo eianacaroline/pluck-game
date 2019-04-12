@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAzul"
-    android:backgroundTint="#1F114A"
+    android:background="@color/colorPrimaryDark"
+
     tools:context=".MainActivity_game">
 
     <ProgressBar

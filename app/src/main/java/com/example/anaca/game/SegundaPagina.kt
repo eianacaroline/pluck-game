@@ -18,6 +18,10 @@ class SegundaPagina : AppCompatActivity() {
         startActivity(intent)
     }
     fun Click1(view: View) {
+        val ch = 'm'
+        val bt = ch.toByte()
+        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
+        IniciaApp.comunicacaoBT!!.write(bt)
 
         val intent: Intent = Intent(this,QuintaPagina::class.java)
         startActivity(intent)

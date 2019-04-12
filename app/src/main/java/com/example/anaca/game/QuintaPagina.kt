@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_quinta_pagina.*
 
 class QuintaPagina : AppCompatActivity() {
@@ -14,13 +15,10 @@ class QuintaPagina : AppCompatActivity() {
 
         IniciaApp.comunicacaoBT.SetTxtReceber(txtVida)
 
-        /*var abc:String=txtVida.text.toString()
-        var k:Int=abc.toInt()
-        if (k<=0){
+        var abc:String=txtVida.text.toString()
+        if (abc == "Você está morto, plucky"){
             Toast.makeText(applicationContext, "morreu", Toast.LENGTH_SHORT).show()
-        }*/
-
-
+        }
     }
 
     fun Click(view: View) {

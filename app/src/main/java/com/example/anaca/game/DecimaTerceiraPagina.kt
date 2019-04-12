@@ -4,7 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
+import kotlinx.android.synthetic.main.activity_decima_terceira_pagina.*
 import kotlinx.android.synthetic.main.activity_nonacopia_pagina.*
 import kotlinx.android.synthetic.main.activity_quinta_pagina.*
 
@@ -25,7 +25,7 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
     fun ClickMago1(view: View) {
@@ -33,7 +33,7 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
     fun ClickNebulosa1(view: View) {
@@ -41,7 +41,7 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
     fun ClickSniper1(view: View) {
@@ -49,7 +49,7 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
     fun ClickValente1(view: View) {
@@ -57,14 +57,10 @@ class DecimaTerceiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        val intent: Intent = Intent(this,DecimaPagina::class.java)
+        val intent: Intent = Intent(this,SegundaPagina::class.java)
         startActivity(intent)
     }
         fun ClickJogar(view: View) {
-            val ch = 'm'
-            val bt = ch.toByte()
-            //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
-            IniciaApp.comunicacaoBT!!.write(bt)
             val intent: Intent = Intent(this,SegundaPagina::class.java)
             startActivity(intent)
         }

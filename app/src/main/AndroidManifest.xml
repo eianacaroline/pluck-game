@@ -22,6 +22,7 @@
         <!-- <activity android:name=".DecimaPagina" /> -->
         <activity android:name=".DecimaSegundaPagina" />
         <activity android:name=".DecimaPrimeiraPagina" />
+        <activity android:name=".DecimaTerceiraPagina" />
         <activity
             android:name=".MainActivity_game"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
