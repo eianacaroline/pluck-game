@@ -16,7 +16,7 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
     }
     fun Click(view: View) {
 
-        var intent: Intent = Intent(this,DecimaPagina::class.java)
+        var intent: Intent = Intent(this,TelaSala::class.java)
         startActivity(intent)
     }
 

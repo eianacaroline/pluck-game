@@ -8,5 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:fontFamily">"lalezar"</item>
     </style>
-
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:fontFamily">"lalezar"</item>
+    </style>
 </resources>

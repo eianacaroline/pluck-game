@@ -33,6 +33,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/botao_pronto"
+        android:onClick="ClickPronto"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintEnd_toStartOf="@+id/imageButton17"
         app:layout_constraintHorizontal_bias="0.19"
@@ -48,6 +50,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/botao_gerar_codigo"
+        android:onClick="ClickCodigo"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
         app:layout_constraintTop_toBottomOf="@+id/editText3"
@@ -107,11 +111,14 @@
     <ImageButton
         android:id="@+id/imageButton18"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="51dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/descricao_voltar"
+        android:onClick="ClickVolta"
         app:layout_constraintBottom_toTopOf="@+id/rel_anything"
         app:layout_constraintEnd_toStartOf="@+id/textView67"
         app:layout_constraintHorizontal_bias="0.605"
@@ -122,9 +129,10 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="246dp"
-        android:layout_height="62dp"
-        android:layout_marginEnd="50dp"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/sala"
@@ -135,4 +143,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.396" />
 
-</android.support.constraint.ConstraintLayout>nstraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

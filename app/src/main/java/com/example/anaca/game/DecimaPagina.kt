@@ -22,6 +22,7 @@ class DecimaPagina : AppCompatActivity() {
         recebePersonagemTexto.setText(intent.getStringExtra("txtPersonagem"))
 
 
+
     }
     fun Click(view: View) {
 
@@ -32,7 +33,7 @@ class DecimaPagina : AppCompatActivity() {
 
 
 
-        var intent: Intent = Intent(this,DecimaPrimeiraPagina::class.java)
+        var intent: Intent = Intent(this,TelaSala::class.java)
         startActivity(intent)
     }
 
