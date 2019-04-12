@@ -17,7 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="52dp"
         android:backgroundTint="#f1f1f1"
-        android:foregroundTint="#f1f1f1"
+        android:foregroundTint="#FFFFFF"
         android:indeterminate="true"
         android:max="100"
         android:progress="50"
@@ -31,13 +31,15 @@
         android:layout_width="304dp"
         android:layout_height="152dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/descricao_logo"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_plucky" />
+        app:srcCompat="@drawable/logo_left" />
 
 </android.support.constraint.ConstraintLayout>

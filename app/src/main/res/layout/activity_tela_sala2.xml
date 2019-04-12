@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzul"
+    tools:context=".TelaSala">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_anything"
+        android:layout_width="312dp"
+        android:layout_height="329dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/layout_shadow_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/botao_pronto"
+        android:onClick="ClickPronto"
+        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton17"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:srcCompat="@drawable/simbolo" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="133dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/botao_gerar_codigo"
+        android:onClick="ClickCodigo"
+        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:srcCompat="@drawable/simbolo_dois" />
+
+    <TextView
+        android:id="@+id/txtInstrucoes"
+        android:layout_width="258dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/codigo"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toTopOf="@+id/rel_anything" />
+
+    <TextView
+        android:id="@+id/bluetooth_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/botao_pronto"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton15"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton15"
+        app:layout_constraintStart_toStartOf="@+id/imageButton15"
+        app:layout_constraintTop_toTopOf="@+id/imageButton15" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="91dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/lalezar"
+        android:lineSpacingExtra="-8sp"
+        android:text="@string/botao_gerar_codigo"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton17"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
+        app:layout_constraintStart_toStartOf="@+id/imageButton17"
+        app:layout_constraintTop_toTopOf="@+id/imageButton17" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/txtInstrucoes" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/descricao_voltar"
+        android:onClick="ClickVolta"
+        app:layout_constraintBottom_toTopOf="@+id/rel_anything"
+        app:layout_constraintEnd_toStartOf="@+id/textView67"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/botvoltar" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/sala"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/rel_anything"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+</android.support.constraint.ConstraintLayout>

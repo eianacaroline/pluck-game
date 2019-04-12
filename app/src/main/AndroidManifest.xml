@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity android:name=".SplashScreen"></activity> -->
+        <activity android:name=".TelaSala"></activity>
+        <!-- <activity android:name=".SplashScreen"></activity> -->
         <!-- <activity android:name=".LigarBluetooth" /> -->
         <!-- <activity android:name=".activity_selecao_de_sala" /> -->
         <!-- <activity android:name=".SplashScreen" /> -->

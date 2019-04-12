@@ -342,21 +342,6 @@
             app:layout_constraintTop_toTopOf="@+id/cardValente"
             app:srcCompat="@drawable/valente" />
 
-        <ImageButton
-            android:id="@+id/imageButton14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="8dp"
-            android:backgroundTint="@android:color/transparent"
-            android:onClick="ClickNext"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.462"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardValente"
-            app:srcCompat="@drawable/bot1" />
-
         <ImageView
             android:id="@+id/imageView13"
             android:layout_width="143dp"
@@ -482,6 +467,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="@+id/cardValente"
+            app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toEndOf="@+id/textView46"
             app:layout_constraintTop_toBottomOf="@+id/imageView43"
             app:srcCompat="@drawable/habilidades__media_" />
@@ -490,11 +476,9 @@
             android:id="@+id/imageView42"
             android:layout_width="143dp"
             android:layout_height="29dp"
-            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="@+id/cardValente"
-            app:layout_constraintStart_toEndOf="@+id/textView50"
             app:layout_constraintTop_toBottomOf="@+id/textView26"
             app:srcCompat="@drawable/habilidades__media_" />
 
@@ -503,9 +487,10 @@
             android:layout_width="143dp"
             android:layout_height="29dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="@+id/cardValente"
+            app:layout_constraintHorizontal_bias="0.6"
             app:layout_constraintStart_toEndOf="@+id/textView49"
             app:layout_constraintTop_toBottomOf="@+id/imageView42"
             app:srcCompat="@drawable/habilidades__media_" />
@@ -683,13 +668,13 @@
             app:layout_constraintBottom_toBottomOf="@+id/cardValente"
             app:layout_constraintStart_toEndOf="@+id/imageView23"
             app:layout_constraintTop_toBottomOf="@+id/textView49"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.181" />
 
         <TextView
             android:id="@+id/textView49"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/dano_hab"
@@ -702,13 +687,15 @@
             android:id="@+id/textView50"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:fontFamily="@font/lalezar"
             android:text="@string/vida_hab"
             android:textColor="#f1f1f1"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@+id/cardValente"
-            app:layout_constraintStart_toStartOf="@+id/cardValente"
+            app:layout_constraintEnd_toStartOf="@+id/imageView42"
+            app:layout_constraintStart_toEndOf="@+id/imageView23"
             app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
         <TextView
@@ -764,18 +751,6 @@
             app:layout_constraintHorizontal_bias="0.513"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView25" />
-
-        <TextView
-            android:id="@+id/textView64"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/lalezar"
-            android:text="@string/jogar"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageButton14"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton14"
-            app:layout_constraintStart_toStartOf="@+id/imageButton14"
-            app:layout_constraintTop_toTopOf="@+id/imageButton14" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
