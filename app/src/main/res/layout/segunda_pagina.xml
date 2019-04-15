@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -121,6 +121,7 @@
         android:background="@color/colorVerde"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -170,18 +171,25 @@
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/group3"
-        app:srcCompat="@drawable/icon_amarelo" />
+        app:srcCompat="@drawable/icon_amarelo"/>
 
     <ProgressBar
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:progress="80"
-        style="?android:progressBarStyleHorizontal"
-        android:progressDrawable="@drawable/circle"
+        android:id="@+id/progressBar"
+        android:layout_width="146dp"
+        android:layout_height="93dp"
+
+        android:indeterminate="true"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDuration="@android:integer/config_longAnimTime"
+        android:indeterminateTint="@color/colorPrimary"
+        android:max="100"
+        android:progressTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.413" />
 
 
 </android.support.constraint.ConstraintLayout>

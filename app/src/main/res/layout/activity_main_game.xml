@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/colorBackground"
 
     tools:context=".MainActivity_game">
 
@@ -19,6 +19,7 @@
         android:backgroundTint="#f1f1f1"
         android:foregroundTint="#FFFFFF"
         android:indeterminate="true"
+        android:indeterminateTint="@color/colorProgress"
         android:max="100"
         android:progress="50"
         android:progressTint="@color/colorRosa"

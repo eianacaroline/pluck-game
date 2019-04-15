@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recebePersonagemTexto"
-        app:srcCompat="@drawable/detonador" />
+        app:srcCompat="@drawable/personagem_detonador" />
 
     <ImageButton
         android:id="@+id/imageButton8"

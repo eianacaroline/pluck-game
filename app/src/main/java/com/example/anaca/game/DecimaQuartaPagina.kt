@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageButton
 import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
 import kotlinx.android.synthetic.main.activity_nonacopia_pagina.*
@@ -43,6 +44,8 @@ class DecimaQuartaPagina : AppCompatActivity() {
         //intent.putExtra("imagemPersonagem"!; R.drawable.nebulosa)
         intent.putExtra("txtPersonagem",heroi3.text.toString())
         startActivity(intent)
+        //val imageView=findViewById<ImageView>(R.id.recebePersonagem)
+       // imageView.setImageResource(R.drawable.personagem_nebulosa);
     }
     fun ClickSniper(view: View) {
 

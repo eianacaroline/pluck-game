@@ -11,7 +11,7 @@ import android.support.v4.app.Fragment
 import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_aplcacao_arduino.*
+//import kotlinx.android.synthetic.main.activity_aplcacao_arduino.*
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

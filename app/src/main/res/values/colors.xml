@@ -2,10 +2,12 @@
 <resources>
     <color name="colorAmarelo">#FFC900</color>
     <color name="colorVerde">#007682</color>
-    <color name="colorRosa">#ff0464</color>
+    <color name="colorRosa">#FF0464</color>
     <color name="colorAzul">#1F114A</color>
     <color name="colorAccent">#ffc900</color>
     <color name="colorPrimary">#007682</color>
     <color name="colorPrimaryDark">#180C31</color>
+    <color name="colorBackground">#00183B</color>
+    <color name="colorProgress">#016490</color>
 
 </resources>

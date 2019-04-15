@@ -9,6 +9,7 @@ import android.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
 import kotlinx.android.synthetic.main.activity_decima_segunda_pagina.*
 import kotlinx.android.synthetic.main.decima_pagina.*
+import kotlinx.android.synthetic.main.segunda_pagina.*
 import java.lang.Exception
 
 class DecimaPagina : AppCompatActivity() {
@@ -18,9 +19,9 @@ class DecimaPagina : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.decima_pagina)
         recebeNome.setText(intent.getStringExtra("nomeJogador"))
-        //recebePersonagem.setImage(intent.getStringExtra("imagemPersonagem"))
         recebePersonagemTexto.setText(intent.getStringExtra("txtPersonagem"))
-
+        //imageView.setImageResource(R.drawable.personagem_nebulosa)
+        //recebePersonagem.setImageResource(R.drawable.personagem_nebulosa);
 
 
     }

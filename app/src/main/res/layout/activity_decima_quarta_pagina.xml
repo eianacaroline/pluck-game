@@ -285,7 +285,7 @@
             app:layout_constraintHorizontal_bias="0.039"
             app:layout_constraintStart_toStartOf="@+id/cardDetonador"
             app:layout_constraintTop_toTopOf="@+id/cardDetonador"
-            app:srcCompat="@drawable/detonador" />
+            app:srcCompat="@drawable/personagem_detonador" />
 
         <ImageView
             android:id="@+id/imageView18"
@@ -299,7 +299,7 @@
             app:layout_constraintStart_toStartOf="@+id/cardMago"
             app:layout_constraintTop_toTopOf="@+id/cardMago"
             app:layout_constraintVertical_bias="0.495"
-            app:srcCompat="@drawable/mago" />
+            app:srcCompat="@drawable/personagem_mago" />
 
         <ImageView
             android:id="@+id/imageView21"
@@ -313,7 +313,7 @@
             app:layout_constraintStart_toStartOf="@+id/cardNebulosa"
             app:layout_constraintTop_toTopOf="@+id/cardNebulosa"
             app:layout_constraintVertical_bias="0.43"
-            app:srcCompat="@drawable/nebulosa" />
+            app:srcCompat="@drawable/personagem_nebulosa" />
 
         <ImageView
             android:id="@+id/imageView22"
@@ -329,7 +329,7 @@
             app:layout_constraintStart_toStartOf="@+id/cardSniper"
             app:layout_constraintTop_toTopOf="@+id/cardSniper"
             app:layout_constraintVertical_bias="0.797"
-            app:srcCompat="@drawable/sniper" />
+            app:srcCompat="@drawable/personagem_sniper" />
 
         <ImageView
             android:id="@+id/imageView23"
@@ -340,7 +340,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/cardValente"
             app:layout_constraintStart_toStartOf="@+id/cardValente"
             app:layout_constraintTop_toTopOf="@+id/cardValente"
-            app:srcCompat="@drawable/valente" />
+            app:srcCompat="@drawable/personagem_valente" />
 
         <ImageView
             android:id="@+id/imageView13"

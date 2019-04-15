@@ -17,7 +17,7 @@ class IniciaApp : AppCompatActivity() {
         lateinit var comunicacaoBT:ComunicacaoBluetooth
         val HC05_UUID: UUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
         val DISPOSITIVO_NOME="HC-05"
-        val DISPOSITIVO_MAC="FC:A8:9A:00:03:E8"
+        val DISPOSITIVO_MAC="98:D3:51:F5:D7:61"
         val VOLTA_E_FECHA=2
     }
 
