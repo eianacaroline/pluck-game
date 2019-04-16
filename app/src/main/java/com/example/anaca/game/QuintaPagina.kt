@@ -21,16 +21,13 @@ class QuintaPagina : AppCompatActivity() {
 
         var vida:String=txtVida.text.toString()
         if (vida == "999"){
-            //Toast.makeText(applicationContext, "morreu", Toast.LENGTH_LONG).show()
-            val intent = Intent(
-                    this,
-                    SextaPagina::class.java
-            )
-            startActivity(intent)
-        }
-        /*if (Log.VERBOSE <=0){
             Toast.makeText(applicationContext, "morreu", Toast.LENGTH_LONG).show()
-        }*/
+            //val intent = Intent(
+              //      this,
+               //     SextaPagina::class.java
+            //)
+            //startActivity(intent)
+        }
     }
 
 

@@ -11,8 +11,7 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="124dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/voltar"
         android:onClick="Click"
@@ -21,8 +20,6 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar2"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/bot1"
         tools:srcCompat="@drawable/bot1" />
 
@@ -30,8 +27,7 @@
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="56dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="124dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/pronto"
         android:onClick="Click1"
@@ -39,8 +35,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar2"
-        app:layout_constraintVertical_bias="0.019"
         app:srcCompat="@drawable/bot2" />
 
     <TextView
@@ -74,63 +68,37 @@
         app:layout_constraintTop_toBottomOf="@+id/personagem"
         app:srcCompat="@drawable/carinha" />
 
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="331dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="@color/colorRosa"
-        android:max="100"
-        android:progress="58"
-        android:progressTint="@color/colorRosa"
-        android:secondaryProgress="@android:integer/config_longAnimTime"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.367" />
-
     <TextView
         android:id="@+id/Vida"
         android:layout_width="142dp"
         android:layout_height="37dp"
         android:layout_marginStart="78dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/vida"
         android:textColor="#f1f1f1"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/progressBar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/txtVida"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.816" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/txtVida"
         android:layout_width="65dp"
         android:layout_height="37dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="78dp"
-        android:layout_marginBottom="8dp"
         android:fontFamily="@font/lalezar"
         android:text="@string/vida"
         android:textColor="@color/colorAmarelo"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/progressBar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Vida"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.816" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/textView13"
@@ -139,7 +107,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/lalezar"
 
-        android:text="@string/voltar"
+        android:text="@string/perdi"
         android:textColor="#f1f1f1"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton"

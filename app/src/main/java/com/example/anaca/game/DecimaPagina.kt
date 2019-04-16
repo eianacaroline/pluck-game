@@ -6,11 +6,16 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import android.app.AlertDialog
+import android.util.Log
 import kotlinx.android.synthetic.main.activity_decima_primeira_pagina.*
 import kotlinx.android.synthetic.main.activity_decima_segunda_pagina.*
 import kotlinx.android.synthetic.main.decima_pagina.*
 import kotlinx.android.synthetic.main.segunda_pagina.*
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.longToast
+import org.jetbrains.anko.uiThread
 import java.lang.Exception
+import java.net.URL
 
 class DecimaPagina : AppCompatActivity() {
 
@@ -24,19 +29,27 @@ class DecimaPagina : AppCompatActivity() {
         //recebePersonagem.setImageResource(R.drawable.personagem_nebulosa);
 
 
+
     }
-    fun Click(view: View) {
-
-        /*val ch = 'P'
-        val bt = ch.toByte()
-        //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
-        IniciaApp.comunicacaoBT!!.write(bt)*/
-
-
+    fun StartGame(view: View) {
+        startGameServer()
 
         var intent: Intent = Intent(this,TelaSala::class.java)
         startActivity(intent)
     }
+
+    private fun startGameServer() = doAsync {
+        val result = URL("http://3.17.91.69:4567/start_game?nome=lucas+dano=11+vida=30+cura=5").readText()
+
+        uiThread{
+                Log.d("Request", result)
+                longToast("Request performed: " + result)
+//                Params.setVidaAdv(result.toInt())
+//                var showValue = findViewById(R.id.textView1) as TextView
+//                showValue.setText(result)
+        }
+    }
+
 
     fun Click1(view: View) {
 
