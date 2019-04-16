@@ -56,9 +56,11 @@ class ComunicacaoBluetooth: Fragment() {
                     Log.d("mer", "valor:" + n)
 
 
+
                     //Morreu
                     if (writeMessage <= "0"){
                        Log.d("mer","Morreu")
+
                     }
                     medicoes.text = writeMessage
                 } catch (e: Exception) {

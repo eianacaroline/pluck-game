@@ -31,24 +31,25 @@ class DecimaPagina : AppCompatActivity() {
 
 
     }
-    fun StartGame(view: View) {
-        startGameServer()
+    fun Click(view: View) {
 
         var intent: Intent = Intent(this,TelaSala::class.java)
         startActivity(intent)
     }
 
-    private fun startGameServer() = doAsync {
-        val result = URL("http://3.17.91.69:4567/start_game?nome=lucas+dano=11+vida=30+cura=5").readText()
+    /*private fun startGameServer() = doAsync {
+        val nome =  Params.player
+        val dano = Params.dano
+        val vida = Params.vida
+        val cura = Params.cura
+
+        val result = URL("http://3.17.91.69:4567/start_game?nome=$nome&dano=$dano&vida=$vida+cura=$cura").readText()
 
         uiThread{
                 Log.d("Request", result)
                 longToast("Request performed: $result")
-//                Params.setVidaAdv(result.toInt())
-//                var showValue = findViewById(R.id.textView1) as TextView
-//                showValue.setText(result)
         }
-    }
+    }*/
 
 
     fun Click1(view: View) {

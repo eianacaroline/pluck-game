@@ -31,7 +31,7 @@
         android:layout_marginEnd="8dp"
         android:backgroundTint="@android:color/transparent"
         android:contentDescription="@string/descricao_batalha"
-        android:onClick="StartGame"
+        android:onClick="Click"
         android:scaleType="centerCrop"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"

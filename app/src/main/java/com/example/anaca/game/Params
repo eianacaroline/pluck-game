@@ -1,0 +1,34 @@
+package com.example.anaca.game
+
+import android.media.AsyncPlayer
+
+object Params{
+  /*  val START_URL = "http://3.17.91.69:4567/start_game"
+    val CODE_URL = "http://3.17.91.69:4567/get_code"
+    val JOIN_URL = "http://3.17.91.69:4567/join_game"
+    val STATUS_URL = "http://3.17.91.69:4567/get_status"
+    val RESET_URL = "http://3.17.91.69:4567/reset_game"
+    val OP_LIFE_URL = "http://3.17.91.69:4567/get_op_life"
+    val UPDATE_LIFE_URL = "http://3.17.91.69:4567/update_life"
+
+    val player: String = ""
+    val vida: String = ""
+    val dano:String = ""
+    val cura:String = ""
+    val nome: String =
+
+    private var code: String = 0
+
+    fun setCode(value: String) {
+        code = value
+    }
+
+    fun getCode(): String {
+        return code
+    }
+    fun getPlayer():String{
+
+    }*/
+
+
+}

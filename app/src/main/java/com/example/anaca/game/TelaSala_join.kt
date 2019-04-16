@@ -10,11 +10,11 @@ import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 import java.net.URL
 
-class TelaSala : AppCompatActivity() {
+class TelaSala_join : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_sala2)
+        setContentView(R.layout.activity_tela_sala_join)
     }
 
 
@@ -31,9 +31,18 @@ class TelaSala : AppCompatActivity() {
     }
     fun ClickCodigo(view: View) {
 
+        getCode()
         var intent: Intent = Intent(this,DecimaPrimeiraPagina::class.java)
         startActivity(intent)
 
     }
+    private fun getCode() = doAsync {
 
+        val result = URL("3.17.91.69:4567/get_code").readText()
+
+        uiThread{
+            Log.d("Request", result)
+            
+        }
+    }
 }

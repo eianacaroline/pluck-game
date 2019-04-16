@@ -122,7 +122,8 @@
     //Tela Sala
     <string name="sala">Zona de batalha</string>
     <string name="codigo">Digite o código de batalha</string>
-    <string name="botao_pronto">Pronto</string>
+    <string name="codigo1">Este é seu código de batalha</string>
+    <string name="botao_start">Jogar</string>
     <string name="botao_gerar_codigo">Gerar código</string>
 
     //Tela inimigos

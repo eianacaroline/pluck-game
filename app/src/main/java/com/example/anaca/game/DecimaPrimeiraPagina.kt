@@ -31,11 +31,13 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
 
     }
     fun ClickMago(view: View) {
+        val nome = "mago"
+        val dano = 9
         val ch = 'e'
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        var intent: Intent = Intent(this,DecimaPagina::class.java)
+        var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         startActivity(intent)
     }
     fun ClickNebulosa(view: View) {
@@ -62,11 +64,11 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
         var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         startActivity(intent)
     }
-    fun ClickNext(view: View) {
+   /* fun ClickNext(view: View) {
 
-        var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
+        var intent: Intent = Intent(this,TelaSala::class.java)
         startActivity(intent)
-    }
+    }*/
 }
 
 

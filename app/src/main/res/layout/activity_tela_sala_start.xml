@@ -28,94 +28,59 @@
     </RelativeLayout>
 
 
-
     <ImageButton
         android:id="@+id/imageButton15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="12dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/botao_start"
         android:onClick="ClickPronto"
         app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton17"
-        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="@+id/rel_anything"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/codigo"
+        app:layout_constraintVertical_bias="0.529"
         app:srcCompat="@drawable/simbolo" />
-
-    <ImageButton
-        android:id="@+id/imageButton17"
-        android:layout_width="133dp"
-        android:layout_height="86dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/botao_gerar_codigo"
-        android:onClick="ClickCodigo"
-        app:layout_constraintBottom_toBottomOf="@+id/rel_anything"
-        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
-        app:srcCompat="@drawable/simbolo_dois" />
 
     <TextView
         android:id="@+id/txtInstrucoes"
         android:layout_width="258dp"
-        android:layout_height="35dp"
+        android:layout_height="75dp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/lalezar"
-        android:text="@string/codigo"
+        android:text="@string/codigo1"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/rel_anything"
         app:layout_constraintStart_toStartOf="@+id/rel_anything"
-        app:layout_constraintTop_toTopOf="@+id/rel_anything" /><![CDATA[
+        app:layout_constraintTop_toTopOf="@+id/rel_anything" />
 
-    />
-
-    ]]>
+    <TextView
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lalezar"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/rel_anything"
+        app:layout_constraintTop_toBottomOf="@+id/txtInstrucoes" />
 
     <TextView
         android:id="@+id/bluetooth_conectar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lalezar"
-        android:text="@string/botao_start"
+        android:text="@string/ok"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton15"
         app:layout_constraintEnd_toEndOf="@+id/imageButton15"
         app:layout_constraintStart_toStartOf="@+id/imageButton15"
         app:layout_constraintTop_toTopOf="@+id/imageButton15" />
-
-    <TextView
-        android:id="@+id/textView66"
-        android:layout_width="91dp"
-        android:layout_height="72dp"
-        android:fontFamily="@font/lalezar"
-        android:lineSpacingExtra="-8sp"
-        android:text="@string/botao_gerar_codigo"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton17"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
-        app:layout_constraintStart_toStartOf="@+id/imageButton17"
-        app:layout_constraintTop_toTopOf="@+id/imageButton17" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="@+id/rel_anything"
-        app:layout_constraintStart_toStartOf="@+id/rel_anything"
-        app:layout_constraintTop_toBottomOf="@+id/txtInstrucoes" />
 
     <ImageButton
         android:id="@+id/imageButton18"
