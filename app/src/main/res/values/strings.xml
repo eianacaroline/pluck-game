@@ -103,6 +103,8 @@
     //Batalha
     <string name="vida">Vida atual: </string>
     <string name="perdi">Perdi </string>
+    <string name="ganhei">Ganhei </string>
+
 
     //Pausar
 

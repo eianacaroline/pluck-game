@@ -11,8 +11,8 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="136dp"
         android:background="@android:color/transparent"
         android:contentDescription="@string/voltar"
         android:onClick="Click"
@@ -21,6 +21,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/bot1"
         tools:srcCompat="@drawable/bot1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginBottom="136dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/voltar"
+        android:onClick="Click2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bot2"
+        tools:srcCompat="@drawable/bot2" />
 
     <TextView
         android:id="@+id/personagem"
@@ -100,6 +115,21 @@
         app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/lalezar"
+        android:text="@string/ganhei"
+        android:textColor="#f1f1f1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.333" />
 
 </android.support.constraint.ConstraintLayout>
