@@ -43,7 +43,7 @@ class DecimaPagina : AppCompatActivity() {
 
         uiThread{
                 Log.d("Request", result)
-                longToast("Request performed: " + result)
+                longToast("Request performed: $result")
 //                Params.setVidaAdv(result.toInt())
 //                var showValue = findViewById(R.id.textView1) as TextView
 //                showValue.setText(result)
