@@ -35,7 +35,7 @@ class DecimaPrimeiraPagina : AppCompatActivity() {
         val bt = ch.toByte()
         //ESSA INSTRUÇÃO MANDA COMANDOS PARA O ARDUINO
         IniciaApp.comunicacaoBT!!.write(bt)
-        var intent: Intent = Intent(this,DecimaPagina::class.java)
+        var intent: Intent = Intent(this,DecimaTerceiraPagina::class.java)
         startActivity(intent)
     }
     fun ClickNebulosa(view: View) {
